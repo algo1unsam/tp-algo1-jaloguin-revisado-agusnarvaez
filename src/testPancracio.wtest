@@ -14,7 +14,7 @@ test "La capacidad de susto de pancracio cambia segun el elemento" {
 test "Se queda con el ultimo elemento" {
 	pancracio.disfrazar(barba)
 	pancracio.disfrazar(mascaraFrankenstein)
-	assert.equals([mascaraFrankenstein],pancracio.disfraces())
+	assert.equals(mascaraFrankenstein,pancracio.disfraces())
 }
 
 test "Pancracio recibe caramelos" {
@@ -24,7 +24,7 @@ test "Pancracio recibe caramelos" {
 
 test "Pancracio se niega a dejar de usar un disfraz" {
 	pancracio.quitarDisfraz(mascaraDracula)
-	assert.equals([mascaraDracula],pancracio.disfraces())
+	assert.equals(mascaraDracula,pancracio.disfraces())
 }
 
 test "Pancracio aumenta su nivel de grito" {

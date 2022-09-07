@@ -16,6 +16,11 @@ test "Macaria recibe 32 caramelos y se queda con 24" {
 	assert.equals(24,macaria.caramelos())
 }
 
+test "Macaria recibe 10 caramelos y se queda con 8" {
+	macaria.recibirCaramelos(10)
+	assert.equals(8,macaria.caramelos())
+}
+
 test "Macaria deja de usar el elemento menos efectivo" {
 	macaria.disfrazar(barba)
 	macaria.disfrazar(mascaraFrankenstein)

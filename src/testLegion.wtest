@@ -51,7 +51,7 @@ test "Los 2 con mas caramelos" {
 	pancracio.recibirCaramelos(10)
 	macaria.recibirCaramelos(10)
 	pedro.recibirCaramelos(10)
-	barrio.chicos( [pedro,macaria,pancracio])
+	barrio.chicos([pedro,macaria,pancracio])
 	assert.equals([pancracio,macaria],barrio.chicosConMasCaramelos(2))
 }
 
